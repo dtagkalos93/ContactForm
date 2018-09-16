@@ -1,0 +1,8 @@
+CREATE DATABASE `contact`; 
+CREATE TABLE `contact`.`info` ( `name` VARCHAR(255), 
+								`lastName` VARCHAR(255), 
+								`email` VARCHAR(255), 
+								`phone` VARCHAR(255), 
+								`bridge` VARCHAR(255), 
+								`comments` TEXT(500),
+								`id` VARCHAR(255)); 
